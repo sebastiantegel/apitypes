@@ -1,0 +1,33 @@
+{
+  "name": "apitypes",
+  "version": "1.0.0",
+  "description": "Types for managing api responses for both api and frontend",
+  "keywords": [
+    "typescript",
+    "api",
+    "response"
+  ],
+  "module": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "license": "ISC",
+  "author": "Sebastian Tegel",
+  "type": "commonjs",
+  "main": "dist/index.cjs",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rollup -c",
+    "publish": "npm publish --access public"
+  },
+  "devDependencies": {
+    "@rollup/plugin-typescript": "^12.1.2",
+    "rollup": "^4.34.8",
+    "tslib": "^2.8.1",
+    "typescript": "^5.7.3"
+  }
+}
