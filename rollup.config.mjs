@@ -14,5 +14,12 @@ export default {
       sourcemap: true,
     },
   ],
-  plugins: [typescript({ tsconfig: "./tsconfig.json" })],
+  plugins: [
+    typescript({
+      tsconfig: "./tsconfig.json",
+      declaration: true,
+      declarationMap: true,
+      outDir: "dist",
+    }),
+  ],
 };
