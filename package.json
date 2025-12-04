@@ -1,5 +1,5 @@
 {
-  "name": "apitypes",
+  "name": "@sebastiantegel/apitypes",
   "version": "1.0.0",
   "description": "Types for managing api responses for both api and frontend",
   "main": "dist/index.cjs",
